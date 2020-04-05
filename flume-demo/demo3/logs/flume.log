@@ -1,0 +1,101 @@
+23 三月 2020 08:34:44,228 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.node.PollingPropertiesFileConfigurationProvider.start:62)  - Configuration provider starting
+23 三月 2020 08:34:44,237 INFO  [conf-file-poller-0] (org.apache.flume.node.PollingPropertiesFileConfigurationProvider$FileWatcherRunnable.run:138)  - Reloading configuration file:./flume-dir2hdfs.conf
+23 三月 2020 08:34:44,252 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:c3
+23 三月 2020 08:34:44,253 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,253 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:c3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,254 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,255 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,255 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,255 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,255 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,255 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addProperty:1117)  - Added sinks: k3 Agent: a3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:c3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,257 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:r3
+23 三月 2020 08:34:44,258 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,258 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,258 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.addComponentConfig:1203)  - Processing:k3
+23 三月 2020 08:34:44,258 WARN  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration$AgentConfiguration.validateConfigFilterSet:623)  - Agent configuration for 'a3' has no configfilters.
+23 三月 2020 08:34:44,277 INFO  [conf-file-poller-0] (org.apache.flume.conf.FlumeConfiguration.validateConfiguration:163)  - Post-validation flume configuration contains configuration for agents: [a3]
+23 三月 2020 08:34:44,277 INFO  [conf-file-poller-0] (org.apache.flume.node.AbstractConfigurationProvider.loadChannels:151)  - Creating channels
+23 三月 2020 08:34:44,289 INFO  [conf-file-poller-0] (org.apache.flume.channel.DefaultChannelFactory.create:42)  - Creating instance of channel c3 type memory
+23 三月 2020 08:34:44,296 INFO  [conf-file-poller-0] (org.apache.flume.node.AbstractConfigurationProvider.loadChannels:205)  - Created channel c3
+23 三月 2020 08:34:44,297 INFO  [conf-file-poller-0] (org.apache.flume.source.DefaultSourceFactory.create:41)  - Creating instance of source r3, type spooldir
+23 三月 2020 08:34:44,314 INFO  [conf-file-poller-0] (org.apache.flume.sink.DefaultSinkFactory.create:42)  - Creating instance of sink: k3, type: hdfs
+23 三月 2020 08:34:44,323 INFO  [conf-file-poller-0] (org.apache.flume.node.AbstractConfigurationProvider.getConfiguration:120)  - Channel c3 connected to [r3, k3]
+23 三月 2020 08:34:44,337 INFO  [conf-file-poller-0] (org.apache.flume.node.Application.startAllComponents:162)  - Starting new configuration:{ sourceRunners:{r3=EventDrivenSourceRunner: { source:Spool Directory source r3: { spoolDir: /root/datas/flume-copy } }} sinkRunners:{k3=SinkRunner: { policy:org.apache.flume.sink.DefaultSinkProcessor@25cacec5 counterGroup:{ name:null counters:{} } }} channels:{c3=org.apache.flume.channel.MemoryChannel{name: c3}} }
+23 三月 2020 08:34:44,345 INFO  [conf-file-poller-0] (org.apache.flume.node.Application.startAllComponents:169)  - Starting Channel c3
+23 三月 2020 08:34:44,413 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.instrumentation.MonitoredCounterGroup.register:119)  - Monitored counter group for type: CHANNEL, name: c3: Successfully registered new MBean.
+23 三月 2020 08:34:44,413 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.instrumentation.MonitoredCounterGroup.start:95)  - Component type: CHANNEL, name: c3 started
+23 三月 2020 08:34:44,414 INFO  [conf-file-poller-0] (org.apache.flume.node.Application.startAllComponents:196)  - Starting Sink k3
+23 三月 2020 08:34:44,417 INFO  [conf-file-poller-0] (org.apache.flume.node.Application.startAllComponents:207)  - Starting Source r3
+23 三月 2020 08:34:44,418 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.source.SpoolDirectorySource.start:85)  - SpoolDirectorySource source starting with directory: /root/datas/flume-copy
+23 三月 2020 08:34:44,419 INFO  [lifecycleSupervisor-1-1] (org.apache.flume.instrumentation.MonitoredCounterGroup.register:119)  - Monitored counter group for type: SINK, name: k3: Successfully registered new MBean.
+23 三月 2020 08:34:44,419 INFO  [lifecycleSupervisor-1-1] (org.apache.flume.instrumentation.MonitoredCounterGroup.start:95)  - Component type: SINK, name: k3 started
+23 三月 2020 08:34:44,490 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.instrumentation.MonitoredCounterGroup.register:119)  - Monitored counter group for type: SOURCE, name: r3: Successfully registered new MBean.
+23 三月 2020 08:34:44,490 INFO  [lifecycleSupervisor-1-0] (org.apache.flume.instrumentation.MonitoredCounterGroup.start:95)  - Component type: SOURCE, name: r3 started
+23 三月 2020 08:34:44,805 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.readEvents:384)  - Last read took us just up to a file boundary. Rolling to the next file, if there is one.
+23 三月 2020 08:34:44,805 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.rollCurrentFile:497)  - Preparing to move file /root/datas/flume-copy/fruit.tsv to /root/datas/flume-copy/fruit.tsv.uploaded
+23 三月 2020 08:34:44,822 INFO  [SinkRunner-PollingRunner-DefaultSinkProcessor] (org.apache.flume.sink.hdfs.HDFSDataStream.configure:57)  - Serializer = TEXT, UseRawLocalFileSystem = false
+23 三月 2020 08:34:44,833 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.readEvents:384)  - Last read took us just up to a file boundary. Rolling to the next file, if there is one.
+23 三月 2020 08:34:44,833 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.rollCurrentFile:497)  - Preparing to move file /root/datas/flume-copy/words.txt to /root/datas/flume-copy/words.txt.uploaded
+23 三月 2020 08:34:45,035 INFO  [SinkRunner-PollingRunner-DefaultSinkProcessor] (org.apache.flume.sink.hdfs.BucketWriter.open:246)  - Creating hdfs://hadoop201:9000/user/flume/upload/20200323/08/upload-.1584923684823.tmp
+23 三月 2020 08:35:45,458 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.readEvents:384)  - Last read took us just up to a file boundary. Rolling to the next file, if there is one.
+23 三月 2020 08:35:45,458 INFO  [pool-5-thread-1] (org.apache.flume.client.avro.ReliableSpoolingFileEventReader.rollCurrentFile:497)  - Preparing to move file /root/datas/flume-copy/text.txt to /root/datas/flume-copy/text.txt.uploaded
+23 三月 2020 08:44:46,212 INFO  [hdfs-k3-roll-timer-0] (org.apache.flume.sink.hdfs.HDFSEventSink$1.run:393)  - Writer callback called.
+23 三月 2020 08:44:46,212 INFO  [hdfs-k3-roll-timer-0] (org.apache.flume.sink.hdfs.BucketWriter.doClose:438)  - Closing hdfs://hadoop201:9000/user/flume/upload/20200323/08/upload-.1584923684823.tmp
+23 三月 2020 08:44:46,247 INFO  [hdfs-k3-call-runner-3] (org.apache.flume.sink.hdfs.BucketWriter$7.call:681)  - Renaming hdfs://hadoop201:9000/user/flume/upload/20200323/08/upload-.1584923684823.tmp to hdfs://hadoop201:9000/user/flume/upload/20200323/08/upload-.1584923684823
+23 三月 2020 09:20:13,614 INFO  [agent-shutdown-hook] (org.apache.flume.node.Application.stopAllComponents:125)  - Shutting down configuration: { sourceRunners:{r3=EventDrivenSourceRunner: { source:Spool Directory source r3: { spoolDir: /root/datas/flume-copy } }} sinkRunners:{k3=SinkRunner: { policy:org.apache.flume.sink.DefaultSinkProcessor@25cacec5 counterGroup:{ name:null counters:{runner.backoffs.consecutive=334, runner.backoffs=342} } }} channels:{c3=org.apache.flume.channel.MemoryChannel{name: c3}} }
+23 三月 2020 09:20:13,615 INFO  [agent-shutdown-hook] (org.apache.flume.node.Application.stopAllComponents:129)  - Stopping Source r3
+23 三月 2020 09:20:13,615 INFO  [agent-shutdown-hook] (org.apache.flume.lifecycle.LifecycleSupervisor.unsupervise:169)  - Stopping component: EventDrivenSourceRunner: { source:Spool Directory source r3: { spoolDir: /root/datas/flume-copy } }
+23 三月 2020 09:20:13,617 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:149)  - Component type: SOURCE, name: r3 stopped
+23 三月 2020 09:20:13,617 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:155)  - Shutdown Metric for type: SOURCE, name: r3. source.start.time == 1584923684490
+23 三月 2020 09:20:13,617 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:161)  - Shutdown Metric for type: SOURCE, name: r3. source.stop.time == 1584926413617
+23 三月 2020 09:20:13,617 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.append-batch.accepted == 6
+23 三月 2020 09:20:13,617 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.append-batch.received == 6
+23 三月 2020 09:20:13,618 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.append.accepted == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.append.received == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.channel.write.fail == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.event.read.fail == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.events.accepted == 384
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.events.received == 384
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.generic.processing.fail == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SOURCE, name: r3. src.open-connection.count == 0
+23 三月 2020 09:20:13,619 INFO  [agent-shutdown-hook] (org.apache.flume.source.SpoolDirectorySource.stop:138)  - SpoolDir source r3 stopped. Metrics: SOURCE:r3{src.events.accepted=384, src.open-connection.count=0, src.append.received=0, src.channel.write.fail=0, src.append-batch.received=6, src.generic.processing.fail=0, src.append-batch.accepted=6, src.append.accepted=0, src.events.received=384, src.event.read.fail=0}
+23 三月 2020 09:20:13,620 INFO  [agent-shutdown-hook] (org.apache.flume.node.Application.stopAllComponents:139)  - Stopping Sink k3
+23 三月 2020 09:20:13,620 INFO  [agent-shutdown-hook] (org.apache.flume.lifecycle.LifecycleSupervisor.unsupervise:169)  - Stopping component: SinkRunner: { policy:org.apache.flume.sink.DefaultSinkProcessor@25cacec5 counterGroup:{ name:null counters:{runner.backoffs.consecutive=334, runner.backoffs=342} } }
+23 三月 2020 09:20:13,621 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:149)  - Component type: SINK, name: k3 stopped
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:155)  - Shutdown Metric for type: SINK, name: k3. sink.start.time == 1584923684419
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:161)  - Shutdown Metric for type: SINK, name: k3. sink.stop.time == 1584926413621
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.batch.complete == 3
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.batch.empty == 343
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.batch.underflow == 2
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.channel.read.fail == 0
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.connection.closed.count == 1
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.connection.creation.count == 1
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.connection.failed.count == 0
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.event.drain.attempt == 384
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.event.drain.sucess == 384
+23 三月 2020 09:20:13,622 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: SINK, name: k3. sink.event.write.fail == 0
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.node.Application.stopAllComponents:149)  - Stopping Channel c3
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.lifecycle.LifecycleSupervisor.unsupervise:169)  - Stopping component: org.apache.flume.channel.MemoryChannel{name: c3}
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:149)  - Component type: CHANNEL, name: c3 stopped
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:155)  - Shutdown Metric for type: CHANNEL, name: c3. channel.start.time == 1584923684413
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:161)  - Shutdown Metric for type: CHANNEL, name: c3. channel.stop.time == 1584926413623
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.capacity == 100000
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.current.size == 0
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.event.put.attempt == 384
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.event.put.success == 384
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.event.take.attempt == 729
+23 三月 2020 09:20:13,623 INFO  [agent-shutdown-hook] (org.apache.flume.instrumentation.MonitoredCounterGroup.stop:177)  - Shutdown Metric for type: CHANNEL, name: c3. channel.event.take.success == 384
+23 三月 2020 09:20:13,624 INFO  [agent-shutdown-hook] (org.apache.flume.lifecycle.LifecycleSupervisor.stop:78)  - Stopping lifecycle supervisor 10
+23 三月 2020 09:20:13,625 INFO  [agent-shutdown-hook] (org.apache.flume.node.PollingPropertiesFileConfigurationProvider.stop:84)  - Configuration provider stopping

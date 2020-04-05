@@ -1,0 +1,209 @@
+2020-03-23 08:01:32,306 WARN  [main]: common.LogUtils (LogUtils.java:logConfigLocation(140)) - DEPRECATED: Ignoring hive-default.xml found on the CLASSPATH at /opt/modules/hive-1.2.2/conf/hive-default.xml
+2020-03-23 08:01:32,406 INFO  [main]: SessionState (SessionState.java:printInfo(951)) - 
+Logging initialized using configuration in file:/opt/modules/hive-1.2.2/conf/hive-log4j.properties
+2020-03-23 08:01:32,542 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:newRawStore(589)) - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2020-03-23 08:01:32,580 INFO  [main]: metastore.ObjectStore (ObjectStore.java:initialize(289)) - ObjectStore, initialize called
+2020-03-23 08:01:33,564 INFO  [main]: metastore.ObjectStore (ObjectStore.java:getPMF(370)) - Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+2020-03-23 08:01:34,727 INFO  [main]: metastore.MetaStoreDirectSql (MetaStoreDirectSql.java:<init>(139)) - Using direct SQL, underlying DB is MYSQL
+2020-03-23 08:01:34,729 INFO  [main]: metastore.ObjectStore (ObjectStore.java:setConf(272)) - Initialized ObjectStore
+2020-03-23 08:01:34,904 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:createDefaultRoles_core(663)) - Added admin role in metastore
+2020-03-23 08:01:34,906 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:createDefaultRoles_core(672)) - Added public role in metastore
+2020-03-23 08:01:34,957 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:addAdminUsers_core(712)) - No user is added in admin role, since config is empty
+2020-03-23 08:01:35,085 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_all_databases
+2020-03-23 08:01:35,087 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_all_databases	
+2020-03-23 08:01:35,109 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_functions: db=default pat=*
+2020-03-23 08:01:35,110 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+2020-03-23 08:23:43,886 WARN  [main]: common.LogUtils (LogUtils.java:logConfigLocation(140)) - DEPRECATED: Ignoring hive-default.xml found on the CLASSPATH at /opt/modules/hive-1.2.2/conf/hive-default.xml
+2020-03-23 08:23:43,996 INFO  [main]: SessionState (SessionState.java:printInfo(951)) - 
+Logging initialized using configuration in file:/opt/modules/hive-1.2.2/conf/hive-log4j.properties
+2020-03-23 08:23:44,270 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:newRawStore(589)) - 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+2020-03-23 08:23:44,317 INFO  [main]: metastore.ObjectStore (ObjectStore.java:initialize(289)) - ObjectStore, initialize called
+2020-03-23 08:23:45,658 INFO  [main]: metastore.ObjectStore (ObjectStore.java:getPMF(370)) - Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+2020-03-23 08:23:47,223 INFO  [main]: metastore.MetaStoreDirectSql (MetaStoreDirectSql.java:<init>(139)) - Using direct SQL, underlying DB is MYSQL
+2020-03-23 08:23:47,228 INFO  [main]: metastore.ObjectStore (ObjectStore.java:setConf(272)) - Initialized ObjectStore
+2020-03-23 08:23:47,541 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:createDefaultRoles_core(663)) - Added admin role in metastore
+2020-03-23 08:23:47,551 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:createDefaultRoles_core(672)) - Added public role in metastore
+2020-03-23 08:23:47,616 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:addAdminUsers_core(712)) - No user is added in admin role, since config is empty
+2020-03-23 08:23:47,827 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_all_databases
+2020-03-23 08:23:47,831 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_all_databases	
+2020-03-23 08:23:47,857 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_functions: db=default pat=*
+2020-03-23 08:23:47,858 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+2020-03-23 08:23:48,955 INFO  [main]: session.SessionState (SessionState.java:createPath(641)) - Created local directory: /tmp/8fca6ece-3390-498d-a336-57a686277654_resources
+2020-03-23 08:23:48,975 INFO  [main]: session.SessionState (SessionState.java:createPath(641)) - Created HDFS directory: /tmp/hive/root/8fca6ece-3390-498d-a336-57a686277654
+2020-03-23 08:23:48,980 INFO  [main]: session.SessionState (SessionState.java:createPath(641)) - Created local directory: /tmp/root/8fca6ece-3390-498d-a336-57a686277654
+2020-03-23 08:23:48,987 INFO  [main]: session.SessionState (SessionState.java:createPath(641)) - Created HDFS directory: /tmp/hive/root/8fca6ece-3390-498d-a336-57a686277654/_tmp_space.db
+2020-03-23 08:24:05,348 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:05,349 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:05,349 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:05,421 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:05,426 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(185)) - Parsing command: show databases
+2020-03-23 08:24:06,084 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(209)) - Parse Completed
+2020-03-23 08:24:06,085 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=parse start=1584923045421 end=1584923046085 duration=664 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,091 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,168 INFO  [main]: ql.Driver (Driver.java:compile(437)) - Semantic Analysis Completed
+2020-03-23 08:24:06,169 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=semanticAnalyze start=1584923046091 end=1584923046169 duration=78 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,468 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(333)) - Initializing operator OP[0]
+2020-03-23 08:24:06,470 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(373)) - Initialization Done 0 OP done is reset.
+2020-03-23 08:24:06,470 INFO  [main]: exec.ListSinkOperator (Operator.java:initializeChildren(430)) - Operator 0 OP initialized
+2020-03-23 08:24:06,481 INFO  [main]: ql.Driver (Driver.java:getSchema(241)) - Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:database_name, type:string, comment:from deserializer)], properties:null)
+2020-03-23 08:24:06,482 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=compile start=1584923045349 end=1584923046482 duration=1133 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,482 INFO  [main]: ql.Driver (Driver.java:checkConcurrency(161)) - Concurrency mode is disabled, not creating a lock manager
+2020-03-23 08:24:06,482 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,483 INFO  [main]: ql.Driver (Driver.java:execute(1351)) - Starting command(queryId=root_20200323082405_68a9573a-27eb-4d4b-9c4a-a837993c7968): show databases
+2020-03-23 08:24:06,486 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=TimeToSubmit start=1584923045349 end=1584923046486 duration=1137 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,486 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,486 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=task.DDL.Stage-0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,504 INFO  [main]: ql.Driver (Driver.java:launchTask(1674)) - Starting task [Stage-0:DDL] in serial mode
+2020-03-23 08:24:06,504 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_all_databases
+2020-03-23 08:24:06,504 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_all_databases	
+2020-03-23 08:24:06,508 INFO  [main]: exec.DDLTask (DDLTask.java:showDatabases(2225)) - results : 1
+2020-03-23 08:24:06,514 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=runTasks start=1584923046486 end=1584923046514 duration=28 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,515 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.execute start=1584923046482 end=1584923046515 duration=33 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,516 INFO  [main]: ql.Driver (SessionState.java:printInfo(951)) - OK
+2020-03-23 08:24:06,517 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,517 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923046517 end=1584923046517 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,517 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.run start=1584923045348 end=1584923046517 duration=1169 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,535 INFO  [main]: Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1243)) - mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2020-03-23 08:24:06,558 INFO  [main]: mapred.FileInputFormat (FileInputFormat.java:listStatus(249)) - Total input paths to process : 1
+2020-03-23 08:24:06,584 INFO  [main]: exec.ListSinkOperator (Operator.java:close(613)) - 0 finished. closing... 
+2020-03-23 08:24:06,584 INFO  [main]: exec.ListSinkOperator (Operator.java:close(635)) - 0 Close done
+2020-03-23 08:24:06,591 INFO  [main]: CliDriver (SessionState.java:printInfo(951)) - Time taken: 1.176 seconds, Fetched: 1 row(s)
+2020-03-23 08:24:06,591 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:06,591 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923046591 end=1584923046591 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,134 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,134 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,134 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,136 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,137 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(185)) - Parsing command: use default
+2020-03-23 08:24:13,138 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(209)) - Parse Completed
+2020-03-23 08:24:13,138 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=parse start=1584923053136 end=1584923053138 duration=2 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,138 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,139 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_database: default
+2020-03-23 08:24:13,139 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+2020-03-23 08:24:13,166 INFO  [main]: ql.Driver (Driver.java:compile(437)) - Semantic Analysis Completed
+2020-03-23 08:24:13,166 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=semanticAnalyze start=1584923053138 end=1584923053166 duration=28 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,167 INFO  [main]: ql.Driver (Driver.java:getSchema(241)) - Returning Hive schema: Schema(fieldSchemas:null, properties:null)
+2020-03-23 08:24:13,167 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=compile start=1584923053134 end=1584923053167 duration=33 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,167 INFO  [main]: ql.Driver (Driver.java:checkConcurrency(161)) - Concurrency mode is disabled, not creating a lock manager
+2020-03-23 08:24:13,167 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,167 INFO  [main]: ql.Driver (Driver.java:execute(1351)) - Starting command(queryId=root_20200323082413_7170e5d3-f5de-4b7e-8e31-1c612c00631f): use default
+2020-03-23 08:24:13,167 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=TimeToSubmit start=1584923053134 end=1584923053167 duration=33 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,168 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,168 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=task.DDL.Stage-0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,168 INFO  [main]: ql.Driver (Driver.java:launchTask(1674)) - Starting task [Stage-0:DDL] in serial mode
+2020-03-23 08:24:13,169 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_database: default
+2020-03-23 08:24:13,169 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+2020-03-23 08:24:13,171 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_database: default
+2020-03-23 08:24:13,172 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+2020-03-23 08:24:13,188 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=runTasks start=1584923053168 end=1584923053188 duration=20 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,188 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.execute start=1584923053167 end=1584923053188 duration=21 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,188 INFO  [main]: ql.Driver (SessionState.java:printInfo(951)) - OK
+2020-03-23 08:24:13,190 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,190 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923053190 end=1584923053190 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,190 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.run start=1584923053134 end=1584923053190 duration=56 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,191 INFO  [main]: CliDriver (SessionState.java:printInfo(951)) - Time taken: 0.056 seconds
+2020-03-23 08:24:13,191 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:13,191 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923053191 end=1584923053191 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,993 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,994 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,994 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,994 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,994 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(185)) - Parsing command: show tables
+2020-03-23 08:24:14,995 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(209)) - Parse Completed
+2020-03-23 08:24:14,995 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=parse start=1584923054994 end=1584923054995 duration=1 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:14,995 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,001 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_database: default
+2020-03-23 08:24:15,004 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+2020-03-23 08:24:15,007 INFO  [main]: ql.Driver (Driver.java:compile(437)) - Semantic Analysis Completed
+2020-03-23 08:24:15,008 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=semanticAnalyze start=1584923054995 end=1584923055008 duration=13 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,012 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(333)) - Initializing operator OP[0]
+2020-03-23 08:24:15,012 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(373)) - Initialization Done 0 OP done is reset.
+2020-03-23 08:24:15,012 INFO  [main]: exec.ListSinkOperator (Operator.java:initializeChildren(430)) - Operator 0 OP initialized
+2020-03-23 08:24:15,013 INFO  [main]: ql.Driver (Driver.java:getSchema(241)) - Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:tab_name, type:string, comment:from deserializer)], properties:null)
+2020-03-23 08:24:15,013 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=compile start=1584923054994 end=1584923055013 duration=19 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,013 INFO  [main]: ql.Driver (Driver.java:checkConcurrency(161)) - Concurrency mode is disabled, not creating a lock manager
+2020-03-23 08:24:15,013 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,013 INFO  [main]: ql.Driver (Driver.java:execute(1351)) - Starting command(queryId=root_20200323082414_7dd6b896-15f0-4a23-ac14-87b8e00e2ba7): show tables
+2020-03-23 08:24:15,013 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=TimeToSubmit start=1584923054994 end=1584923055013 duration=19 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,013 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,013 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=task.DDL.Stage-0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,014 INFO  [main]: ql.Driver (Driver.java:launchTask(1674)) - Starting task [Stage-0:DDL] in serial mode
+2020-03-23 08:24:15,014 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_database: default
+2020-03-23 08:24:15,014 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_database: default	
+2020-03-23 08:24:15,018 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_tables: db=default pat=.*
+2020-03-23 08:24:15,018 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_tables: db=default pat=.*	
+2020-03-23 08:24:15,030 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=runTasks start=1584923055013 end=1584923055030 duration=17 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,030 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.execute start=1584923055013 end=1584923055030 duration=17 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,030 INFO  [main]: ql.Driver (SessionState.java:printInfo(951)) - OK
+2020-03-23 08:24:15,031 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,031 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923055031 end=1584923055031 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,031 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.run start=1584923054993 end=1584923055031 duration=38 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,032 INFO  [main]: mapred.FileInputFormat (FileInputFormat.java:listStatus(249)) - Total input paths to process : 1
+2020-03-23 08:24:15,033 INFO  [main]: exec.ListSinkOperator (Operator.java:close(613)) - 0 finished. closing... 
+2020-03-23 08:24:15,033 INFO  [main]: exec.ListSinkOperator (Operator.java:close(635)) - 0 Close done
+2020-03-23 08:24:15,034 INFO  [main]: CliDriver (SessionState.java:printInfo(951)) - Time taken: 0.038 seconds, Fetched: 3 row(s)
+2020-03-23 08:24:15,034 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:15,034 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923055034 end=1584923055034 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,016 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.run from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,017 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=TimeToSubmit from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,017 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=compile from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,017 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=parse from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,017 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(185)) - Parsing command: select * from kv
+2020-03-23 08:24:22,055 INFO  [main]: parse.ParseDriver (ParseDriver.java:parse(209)) - Parse Completed
+2020-03-23 08:24:22,055 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=parse start=1584923062017 end=1584923062055 duration=38 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,056 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=semanticAnalyze from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,120 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:analyzeInternal(10127)) - Starting Semantic Analysis
+2020-03-23 08:24:22,133 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:genResolvedParseTree(10074)) - Completed phase 1 of Semantic Analysis
+2020-03-23 08:24:22,134 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:getMetaData(1552)) - Get metadata for source tables
+2020-03-23 08:24:22,134 INFO  [main]: metastore.HiveMetaStore (HiveMetaStore.java:logInfo(746)) - 0: get_table : db=default tbl=kv
+2020-03-23 08:24:22,134 INFO  [main]: HiveMetaStore.audit (HiveMetaStore.java:logAuditEvent(371)) - ugi=root	ip=unknown-ip-addr	cmd=get_table : db=default tbl=kv	
+2020-03-23 08:24:22,354 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:getMetaData(1704)) - Get metadata for subqueries
+2020-03-23 08:24:22,378 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:getMetaData(1728)) - Get metadata for destination tables
+2020-03-23 08:24:22,382 ERROR [main]: hdfs.KeyProviderCache (KeyProviderCache.java:createKeyProviderURI(87)) - Could not find uri with key [dfs.encryption.key.provider.uri] to create a keyProvider !!
+2020-03-23 08:24:22,408 INFO  [main]: ql.Context (Context.java:getMRScratchDir(330)) - New scratch dir is hdfs://hadoop201:9000/tmp/hive/root/8fca6ece-3390-498d-a336-57a686277654/hive_2020-03-23_08-24-22_017_2507591974761855969-1
+2020-03-23 08:24:22,410 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:genResolvedParseTree(10078)) - Completed getting MetaData in Semantic Analysis
+2020-03-23 08:24:22,461 INFO  [main]: parse.BaseSemanticAnalyzer (CalcitePlanner.java:canCBOHandleAst(389)) - Not invoking CBO because the statement has too few joins
+2020-03-23 08:24:22,483 INFO  [main]: common.FileUtils (FileUtils.java:mkdir(501)) - Creating directory if it doesn't exist: hdfs://hadoop201:9000/tmp/hive/root/8fca6ece-3390-498d-a336-57a686277654/hive_2020-03-23_08-24-22_017_2507591974761855969-1/-mr-10000/.hive-staging_hive_2020-03-23_08-24-22_017_2507591974761855969-1
+2020-03-23 08:24:22,602 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:genFileSinkPlan(6653)) - Set stats collection dir : hdfs://hadoop201:9000/tmp/hive/root/8fca6ece-3390-498d-a336-57a686277654/hive_2020-03-23_08-24-22_017_2507591974761855969-1/-mr-10000/.hive-staging_hive_2020-03-23_08-24-22_017_2507591974761855969-1/-ext-10002
+2020-03-23 08:24:22,757 INFO  [main]: ppd.OpProcFactory (OpProcFactory.java:process(655)) - Processing for FS(2)
+2020-03-23 08:24:22,758 INFO  [main]: ppd.OpProcFactory (OpProcFactory.java:process(655)) - Processing for SEL(1)
+2020-03-23 08:24:22,758 INFO  [main]: ppd.OpProcFactory (OpProcFactory.java:process(382)) - Processing for TS(0)
+2020-03-23 08:24:22,882 INFO  [main]: parse.CalcitePlanner (SemanticAnalyzer.java:analyzeInternal(10213)) - Completed plan generation
+2020-03-23 08:24:22,882 INFO  [main]: ql.Driver (Driver.java:compile(437)) - Semantic Analysis Completed
+2020-03-23 08:24:22,882 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=semanticAnalyze start=1584923062056 end=1584923062882 duration=826 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,906 INFO  [main]: exec.TableScanOperator (Operator.java:initialize(333)) - Initializing operator TS[0]
+2020-03-23 08:24:22,907 INFO  [main]: exec.TableScanOperator (Operator.java:initialize(373)) - Initialization Done 0 TS done is reset.
+2020-03-23 08:24:22,907 INFO  [main]: exec.TableScanOperator (Operator.java:initializeChildren(430)) - Operator 0 TS initialized
+2020-03-23 08:24:22,907 INFO  [main]: exec.TableScanOperator (Operator.java:initializeChildren(436)) - Initializing children of 0 TS
+2020-03-23 08:24:22,907 INFO  [main]: exec.SelectOperator (Operator.java:initialize(470)) - Initializing child 1 SEL
+2020-03-23 08:24:22,907 INFO  [main]: exec.SelectOperator (Operator.java:initialize(333)) - Initializing operator SEL[1]
+2020-03-23 08:24:22,913 INFO  [main]: exec.SelectOperator (SelectOperator.java:initializeOp(65)) - SELECT struct<key:int,value:string>
+2020-03-23 08:24:22,913 INFO  [main]: exec.SelectOperator (Operator.java:initialize(373)) - Initialization Done 1 SEL done is reset.
+2020-03-23 08:24:22,913 INFO  [main]: exec.SelectOperator (Operator.java:initializeChildren(430)) - Operator 1 SEL initialized
+2020-03-23 08:24:22,914 INFO  [main]: exec.SelectOperator (Operator.java:initializeChildren(436)) - Initializing children of 1 SEL
+2020-03-23 08:24:22,914 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(470)) - Initializing child 3 OP
+2020-03-23 08:24:22,914 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(333)) - Initializing operator OP[3]
+2020-03-23 08:24:22,915 INFO  [main]: exec.ListSinkOperator (Operator.java:initialize(373)) - Initialization Done 3 OP done is reset.
+2020-03-23 08:24:22,915 INFO  [main]: exec.ListSinkOperator (Operator.java:initializeChildren(430)) - Operator 3 OP initialized
+2020-03-23 08:24:22,915 INFO  [main]: ql.Driver (Driver.java:getSchema(241)) - Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:kv.key, type:int, comment:null), FieldSchema(name:kv.value, type:string, comment:null)], properties:null)
+2020-03-23 08:24:22,915 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=compile start=1584923062017 end=1584923062915 duration=898 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,916 INFO  [main]: ql.Driver (Driver.java:checkConcurrency(161)) - Concurrency mode is disabled, not creating a lock manager
+2020-03-23 08:24:22,916 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=Driver.execute from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,917 INFO  [main]: ql.Driver (Driver.java:execute(1351)) - Starting command(queryId=root_20200323082422_9aa3e1ff-1817-40cf-b5a5-22a05f654a6f): select * from kv
+2020-03-23 08:24:22,917 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=TimeToSubmit start=1584923062017 end=1584923062917 duration=900 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,917 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=runTasks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,917 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=runTasks start=1584923062917 end=1584923062917 duration=0 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,917 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.execute start=1584923062916 end=1584923062917 duration=1 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,917 INFO  [main]: ql.Driver (SessionState.java:printInfo(951)) - OK
+2020-03-23 08:24:22,918 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,920 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923062918 end=1584923062920 duration=2 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,920 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=Driver.run start=1584923062016 end=1584923062920 duration=904 from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,925 INFO  [main]: exec.TableScanOperator (Operator.java:close(613)) - 0 finished. closing... 
+2020-03-23 08:24:22,925 INFO  [main]: exec.SelectOperator (Operator.java:close(613)) - 1 finished. closing... 
+2020-03-23 08:24:22,926 INFO  [main]: exec.ListSinkOperator (Operator.java:close(613)) - 3 finished. closing... 
+2020-03-23 08:24:22,926 INFO  [main]: exec.ListSinkOperator (Operator.java:close(635)) - 3 Close done
+2020-03-23 08:24:22,926 INFO  [main]: exec.SelectOperator (Operator.java:close(635)) - 1 Close done
+2020-03-23 08:24:22,926 INFO  [main]: exec.TableScanOperator (Operator.java:close(635)) - 0 Close done
+2020-03-23 08:24:22,947 INFO  [main]: CliDriver (SessionState.java:printInfo(951)) - Time taken: 0.904 seconds
+2020-03-23 08:24:22,948 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogBegin(121)) - <PERFLOG method=releaseLocks from=org.apache.hadoop.hive.ql.Driver>
+2020-03-23 08:24:22,950 INFO  [main]: log.PerfLogger (PerfLogger.java:PerfLogEnd(148)) - </PERFLOG method=releaseLocks start=1584923062948 end=1584923062950 duration=2 from=org.apache.hadoop.hive.ql.Driver>

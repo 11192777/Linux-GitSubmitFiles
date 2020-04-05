@@ -1,0 +1,17 @@
+#!/bin/bash
+pcount=$#
+if ((pcount==0))
+	then
+		echo no args;
+		exit;
+fi
+
+echo ==================== xcall =====================
+echo                                                           
+ordercall=$@
+for ((host=201; host<=203; host++)); do
+	echo -------------------hadoop$host--------------------
+	ssh hadoop$host $ordercall
+echo ------------------------------------------------
+echo  
+done
